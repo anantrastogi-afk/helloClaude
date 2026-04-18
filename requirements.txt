@@ -1,0 +1,5 @@
+anthropic>=0.40
+httpx
+beautifulsoup4
+schedule
+pypdf
