@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0000039000000000000001A /* MathChampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000001A /* MathChampApp.swift */; };
+		A0000039000000000000002A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000002A /* ContentView.swift */; };
+		A0000039000000000000003A /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000003A /* Problem.swift */; };
+		A0000039000000000000004A /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000004A /* UserProgress.swift */; };
+		A0000039000000000000005A /* ProblemBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000005A /* ProblemBank.swift */; };
+		A0000039000000000000006A /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000006A /* PracticeViewModel.swift */; };
+		A0000039000000000000007A /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000007A /* QuizViewModel.swift */; };
+		A0000039000000000000008A /* TopicColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000008A /* TopicColorExtension.swift */; };
+		A0000039000000000000009A /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000009A /* AnswerButton.swift */; };
+		A000003900000000000000AA /* ExplanationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000002000000000000000AA /* ExplanationCard.swift */; };
+		A000003900000000000000BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000002000000000000000BA /* HomeView.swift */; };
+		A000003900000000000000CA /* TopicSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000002000000000000000CA /* TopicSelectionView.swift */; };
+		A000003900000000000000DA /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000002000000000000000DA /* PracticeView.swift */; };
+		A000003900000000000000EA /* QuizSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000002000000000000000EA /* QuizSetupView.swift */; };
+		A000003900000000000000FA /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000002000000000000000FA /* QuizView.swift */; };
+		A0000039000000000000010A /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000010A /* StatsView.swift */; };
+		A0000039000000000000011A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000011A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0000020000000000000001A /* MathChampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathChampApp.swift; sourceTree = "<group>"; };
+		A0000020000000000000002A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0000020000000000000003A /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		A0000020000000000000004A /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		A0000020000000000000005A /* ProblemBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemBank.swift; sourceTree = "<group>"; };
+		A0000020000000000000006A /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		A0000020000000000000007A /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		A0000020000000000000008A /* TopicColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicColorExtension.swift; sourceTree = "<group>"; };
+		A0000020000000000000009A /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		A000002000000000000000AA /* ExplanationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationCard.swift; sourceTree = "<group>"; };
+		A000002000000000000000BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A000002000000000000000CA /* TopicSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSelectionView.swift; sourceTree = "<group>"; };
+		A000002000000000000000DA /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		A000002000000000000000EA /* QuizSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSetupView.swift; sourceTree = "<group>"; };
+		A000002000000000000000FA /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		A0000020000000000000010A /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		A0000020000000000000011A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0000020000000000000012A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0000020000000000000013A /* MathChamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathChamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0000013000000000000001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0000002000000000000001A /* MathChamp */ = {
+			isa = PBXGroup;
+			children = (
+				A0000020000000000000001A /* MathChampApp.swift */,
+				A0000020000000000000002A /* ContentView.swift */,
+				A000002000000000000000BA /* HomeView.swift */,
+				A0000015000000000000001A /* Models */,
+				A0000016000000000000001A /* Data */,
+				A0000017000000000000001A /* ViewModels */,
+				A0000018000000000000001A /* Views */,
+				A0000020000000000000011A /* Assets.xcassets */,
+				A0000020000000000000012A /* Info.plist */,
+			);
+			path = MathChamp;
+			sourceTree = "<group>";
+		};
+		A0000015000000000000001A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0000020000000000000003A /* Problem.swift */,
+				A0000020000000000000004A /* UserProgress.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0000016000000000000001A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A0000020000000000000005A /* ProblemBank.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0000017000000000000001A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A0000020000000000000006A /* PracticeViewModel.swift */,
+				A0000020000000000000007A /* QuizViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A0000018000000000000001A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A000002000000000000000CA /* TopicSelectionView.swift */,
+				A000002000000000000000DA /* PracticeView.swift */,
+				A000002000000000000000EA /* QuizSetupView.swift */,
+				A000002000000000000000FA /* QuizView.swift */,
+				A0000020000000000000010A /* StatsView.swift */,
+				A0000019000000000000001A /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0000019000000000000001A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A0000020000000000000008A /* TopicColorExtension.swift */,
+				A0000020000000000000009A /* AnswerButton.swift */,
+				A000002000000000000000AA /* ExplanationCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A000000C000000000000001A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0000020000000000000013A /* MathChamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A000000B000000000000001A = {
+			isa = PBXGroup;
+			children = (
+				A0000002000000000000001A /* MathChamp */,
+				A000000C000000000000001A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0000004000000000000001A /* MathChamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0000006000000000000001A /* Build configuration list for PBXNativeTarget "MathChamp" */;
+			buildPhases = (
+				A0000011000000000000001A /* Sources */,
+				A0000012000000000000001A /* Resources */,
+				A0000013000000000000001A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathChamp;
+			productName = MathChamp;
+			productReference = A0000020000000000000013A /* MathChamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0000001000000000000001A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A0000004000000000000001A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A0000005000000000000001A /* Build configuration list for PBXProject "MathChamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A000000B000000000000001A;
+			productRefGroup = A000000C000000000000001A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0000004000000000000001A /* MathChamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000012000000000000001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000039000000000000011A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0000011000000000000001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000039000000000000001A /* MathChampApp.swift in Sources */,
+				A0000039000000000000002A /* ContentView.swift in Sources */,
+				A0000039000000000000003A /* Problem.swift in Sources */,
+				A0000039000000000000004A /* UserProgress.swift in Sources */,
+				A0000039000000000000005A /* ProblemBank.swift in Sources */,
+				A0000039000000000000006A /* PracticeViewModel.swift in Sources */,
+				A0000039000000000000007A /* QuizViewModel.swift in Sources */,
+				A0000039000000000000008A /* TopicColorExtension.swift in Sources */,
+				A0000039000000000000009A /* AnswerButton.swift in Sources */,
+				A000003900000000000000AA /* ExplanationCard.swift in Sources */,
+				A000003900000000000000BA /* HomeView.swift in Sources */,
+				A000003900000000000000CA /* TopicSelectionView.swift in Sources */,
+				A000003900000000000000DA /* PracticeView.swift in Sources */,
+				A000003900000000000000EA /* QuizSetupView.swift in Sources */,
+				A000003900000000000000FA /* QuizView.swift in Sources */,
+				A0000039000000000000010A /* StatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0000007000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0000008000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0000009000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MathChamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathchamp.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A000000A000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MathChamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mathchamp.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0000005000000000000001A /* Build configuration list for PBXProject "MathChamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000007000000000000001A /* Debug */,
+				A0000008000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0000006000000000000001A /* Build configuration list for PBXNativeTarget "MathChamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000009000000000000001A /* Debug */,
+				A000000A000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0000001000000000000001A /* Project object */;
+}
