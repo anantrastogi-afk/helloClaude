@@ -64,7 +64,6 @@
 			children = (
 				A0000020000000000000001A /* MathChampApp.swift */,
 				A0000020000000000000002A /* ContentView.swift */,
-				A000002000000000000000BA /* HomeView.swift */,
 				A0000015000000000000001A /* Models */,
 				A0000016000000000000001A /* Data */,
 				A0000017000000000000001A /* ViewModels */,
@@ -104,6 +103,7 @@
 		A0000018000000000000001A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A000002000000000000000BA /* HomeView.swift */,
 				A000002000000000000000CA /* TopicSelectionView.swift */,
 				A000002000000000000000DA /* PracticeView.swift */,
 				A000002000000000000000EA /* QuizSetupView.swift */,

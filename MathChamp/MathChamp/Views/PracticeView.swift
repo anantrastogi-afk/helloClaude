@@ -224,11 +224,18 @@ struct PracticeSessionView: View {
     }
 
     private var emptyView: some View {
-        ContentUnavailableView(
-            "No Problems Found",
-            systemImage: "questionmark.circle",
-            description: Text("Try a different topic or grade level.")
-        )
+        VStack(spacing: 16) {
+            Image(systemName: "questionmark.circle")
+                .font(.system(size: 48))
+                .foregroundColor(.secondary)
+            Text("No Problems Found")
+                .font(.system(size: 18, weight: .semibold, design: .rounded))
+            Text("Try a different topic or grade level.")
+                .font(.system(size: 14, design: .rounded))
+                .foregroundColor(.secondary)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(.systemGroupedBackground))
     }
 }
 
