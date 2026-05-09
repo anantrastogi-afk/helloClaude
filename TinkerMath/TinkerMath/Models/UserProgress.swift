@@ -50,7 +50,7 @@ class UserProgress: ObservableObject {
         }
     }
 
-    private let storageKey = "mathchamp_v1_progress"
+    private let storageKey = "tinkermath_v1_progress"
 
     init() {
         load()

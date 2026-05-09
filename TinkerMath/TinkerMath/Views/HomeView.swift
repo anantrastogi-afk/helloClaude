@@ -24,7 +24,7 @@ struct HomeView: View {
     private var headerSection: some View {
         HStack {
             VStack(alignment: .leading, spacing: 4) {
-                Text("MathChamp 🏆")
+                Text("TinkerMath 🏆")
                     .font(.system(size: 28, weight: .bold, design: .rounded))
                 Text("Ready to compete?")
                     .font(.system(size: 15, design: .rounded))

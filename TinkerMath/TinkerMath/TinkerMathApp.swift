@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MathChampApp: App {
+struct TinkerMathApp: App {
     @StateObject private var userProgress = UserProgress()
 
     var body: some Scene {

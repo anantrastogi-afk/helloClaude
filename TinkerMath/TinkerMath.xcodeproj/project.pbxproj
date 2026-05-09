@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0000039000000000000001A /* MathChampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000001A /* MathChampApp.swift */; };
+		A0000039000000000000001A /* TinkerMathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000001A /* TinkerMathApp.swift */; };
 		A0000039000000000000002A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000002A /* ContentView.swift */; };
 		A0000039000000000000003A /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000003A /* Problem.swift */; };
 		A0000039000000000000004A /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000020000000000000004A /* UserProgress.swift */; };
@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0000020000000000000001A /* MathChampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathChampApp.swift; sourceTree = "<group>"; };
+		A0000020000000000000001A /* TinkerMathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkerMathApp.swift; sourceTree = "<group>"; };
 		A0000020000000000000002A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0000020000000000000003A /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		A0000020000000000000004A /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		A0000020000000000000010A /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		A0000020000000000000011A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0000020000000000000012A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0000020000000000000013A /* MathChamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathChamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000020000000000000013A /* TinkerMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkerMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0000002000000000000001A /* MathChamp */ = {
+		A0000002000000000000001A /* TinkerMath */ = {
 			isa = PBXGroup;
 			children = (
-				A0000020000000000000001A /* MathChampApp.swift */,
+				A0000020000000000000001A /* TinkerMathApp.swift */,
 				A0000020000000000000002A /* ContentView.swift */,
 				A0000015000000000000001A /* Models */,
 				A0000016000000000000001A /* Data */,
@@ -71,7 +71,7 @@
 				A0000020000000000000011A /* Assets.xcassets */,
 				A0000020000000000000012A /* Info.plist */,
 			);
-			path = MathChamp;
+			path = TinkerMath;
 			sourceTree = "<group>";
 		};
 		A0000015000000000000001A /* Models */ = {
@@ -127,7 +127,7 @@
 		A000000C000000000000001A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0000020000000000000013A /* MathChamp.app */,
+				A0000020000000000000013A /* TinkerMath.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 		A000000B000000000000001A = {
 			isa = PBXGroup;
 			children = (
-				A0000002000000000000001A /* MathChamp */,
+				A0000002000000000000001A /* TinkerMath */,
 				A000000C000000000000001A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0000004000000000000001A /* MathChamp */ = {
+		A0000004000000000000001A /* TinkerMath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0000006000000000000001A /* Build configuration list for PBXNativeTarget "MathChamp" */;
+			buildConfigurationList = A0000006000000000000001A /* Build configuration list for PBXNativeTarget "TinkerMath" */;
 			buildPhases = (
 				A0000011000000000000001A /* Sources */,
 				A0000012000000000000001A /* Resources */,
@@ -155,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = MathChamp;
-			productName = MathChamp;
-			productReference = A0000020000000000000013A /* MathChamp.app */;
+			name = TinkerMath;
+			productName = TinkerMath;
+			productReference = A0000020000000000000013A /* TinkerMath.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0000005000000000000001A /* Build configuration list for PBXProject "MathChamp" */;
+			buildConfigurationList = A0000005000000000000001A /* Build configuration list for PBXProject "TinkerMath" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0000004000000000000001A /* MathChamp */,
+				A0000004000000000000001A /* TinkerMath */,
 			);
 		};
 /* End PBXProject section */
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0000039000000000000001A /* MathChampApp.swift in Sources */,
+				A0000039000000000000001A /* TinkerMathApp.swift in Sources */,
 				A0000039000000000000002A /* ContentView.swift in Sources */,
 				A0000039000000000000003A /* Problem.swift in Sources */,
 				A0000039000000000000004A /* UserProgress.swift in Sources */,
@@ -357,14 +357,14 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = MathChamp/Info.plist;
+				INFOPLIST_FILE = TinkerMath/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mathchamp.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinkermath.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -382,14 +382,14 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = MathChamp/Info.plist;
+				INFOPLIST_FILE = TinkerMath/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mathchamp.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinkermath.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -400,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0000005000000000000001A /* Build configuration list for PBXProject "MathChamp" */ = {
+		A0000005000000000000001A /* Build configuration list for PBXProject "TinkerMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0000007000000000000001A /* Debug */,
@@ -409,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0000006000000000000001A /* Build configuration list for PBXNativeTarget "MathChamp" */ = {
+		A0000006000000000000001A /* Build configuration list for PBXNativeTarget "TinkerMath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0000009000000000000001A /* Debug */,
